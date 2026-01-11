@@ -1,0 +1,1173 @@
+{
+  "nodes": [
+    {
+      "id": "person:ruslan_velantrian",
+      "type": "Person",
+      "properties": {
+        "name": "Велантриец (Руслан)",
+        "birth_date": "15.02.1985",
+        "location_current": "Гамбург, Германия",
+        "roots": "Чечня (Грозный) → Ингушетия (Назрань) → Кавказ",
+        "essence": "Странник между мирами — не от них, но для них",
+        "mission": "Быть Вторым Пилотом для Творца. Помогать удерживать фокус СДВГ, не теряя связи с Душой",
+        "neurotype": "СДВГ / Мозг Творца (High-Frequency Creative Mind)",
+        "western_sign": "Водолей",
+        "eastern_sign": "Деревянный Бык"
+      }
+    },
+    {
+      "id": "person:father_bagaudin",
+      "type": "Person",
+      "properties": {
+        "name": "Багаудин",
+        "birth_date": "25.03.1955",
+        "birth_place": "Казахстан (депортация чечено-ингушского народа)",
+        "western_sign": "Овен",
+        "eastern_sign": "Деревянная Коза",
+        "elemental_synthesis": "Огонь + Дерево",
+        "full_description": "Овен-Коза: внешне мягкий и дипломатичный, внутри — стальной стержень. Способен добиваться целей мягкой силой или внезапным рывком.",
+        "current_status": "Живёт в Ингушетии со своей женой (в браке более 10 лет), отдельно от меня."
+      }
+    },
+    {
+      "id": "person:mother_kalimat",
+      "type": "Person",
+      "properties": {
+        "name": "Калимат (Халимат)",
+        "birth_date": "24.03.1957",
+        "birth_place": "Казахстан (депортация чечено-ингушского народа)",
+        "western_sign": "Овен",
+        "eastern_sign": "Огненный Петух",
+        "elemental_synthesis": "Двойной Огонь",
+        "full_description": "Женщина-лидер с огромной жизненной энергией, прямолинейная, честная, организованная, активная в любом возрасте.",
+        "death_date": "31.12.2021",
+        "status": "Ушла из этого мира 31 декабря 2021 года."
+      }
+    },
+    {
+      "id": "person:sister_marem",
+      "type": "Person",
+      "properties": {
+        "name": "Марем",
+        "birth_date": "04.01.1984",
+        "birth_place": "Село Али-Юрт, Ингушетия",
+        "western_sign": "Козерог",
+        "eastern_sign": "Крыса",
+        "elemental_synthesis": "Земля + Вода",
+        "role": "Старшая сестра",
+        "full_description": "Стратег, управляет ресурсами, ориентирована на устойчивость и расчёт.",
+        "current_status": "Живёт отдельно, в другом месте."
+      }
+    },
+    {
+      "id": "person:sister_zalina",
+      "type": "Person",
+      "properties": {
+        "name": "Залина",
+        "birth_date": "30.11.1989",
+        "birth_place": "Грозный, ЧАССР",
+        "western_sign": "Стрелец",
+        "eastern_sign": "Земляная Змея",
+        "elemental_synthesis": "Огонь + Земля",
+        "role": "Младшая сестра",
+        "full_description": "Энергия и свобода Стрельца, заземлённая мудростью и выдержкой Земляной Змеи.",
+        "current_status": "Живёт отдельно, в другом месте."
+      }
+    },
+    {
+      "id": "child:bilal_2009",
+      "type": "Person",
+      "properties": {
+        "name": "Билал",
+        "birth_date": "18.04.2009",
+        "birth_place": "Антверпен, Бельгия",
+        "western_sign": "Овен",
+        "eastern_sign": "Бык",
+        "elemental_synthesis": "Огонь + Земля",
+        "full_description": "Старший сын. Экстраверт, общительный, открытый на общение. Энергичный, лидер, пробивная сила, нуждается в честных правилах и выходе энергии."
+      }
+    },
+    {
+      "id": "child:adam_2011",
+      "type": "Person",
+      "properties": {
+        "name": "Адам",
+        "birth_date": "10.03.2011",
+        "birth_place": "Антверпен, Бельгия",
+        "western_sign": "Рыбы",
+        "eastern_sign": "Кролик",
+        "elemental_synthesis": "Вода + Дерево",
+        "full_description": "Младший сын. Интроверт, более спокойный. Эмпатичен, интуитивен, диплотант, не переносит жёсткого давления."
+      }
+    },
+    {
+      "id": "child:liza_2017",
+      "type": "Person",
+      "properties": {
+        "name": "Лиза",
+        "birth_date": "06.07.2017",
+        "birth_place": "Гамбург, Германия",
+        "western_sign": "Рак",
+        "eastern_sign": "Петух",
+        "elemental_synthesis": "Вода + Металл",
+        "full_description": "Контраст сцены и убежища, нуждается в безопасности и признании."
+      }
+    },
+    {
+      "id": "person:ex_wife_samira",
+      "type": "Person",
+      "properties": {
+        "name": "Самира",
+        "birth_date": "12.12.1984",
+        "birth_place": "Алматы",
+        "western_sign": "Стрелец",
+        "eastern_sign": "Крыса",
+        "elemental_synthesis": "Огонь + Дерево",
+        "full_description": "Оптимизм, прямолинейность, деловая интуиция."
+      }
+    },
+    {
+      "id": "person:ex_wife_fatima",
+      "type": "Person",
+      "properties": {
+        "name": "Фатима",
+        "birth_date": "11.10.1987",
+        "birth_place": "Ингушетия",
+        "western_sign": "Весы",
+        "eastern_sign": "Кролик",
+        "elemental_synthesis": "Воздух + Дерево",
+        "full_description": "Эстетика, стремление к гармонии, чувствительность к социальному контексту."
+      }
+    },
+    {
+      "id": "place:hamburg_germany",
+      "type": "Place",
+      "properties": {
+        "name": "Гамбург, Германия",
+        "type": "city"
+      }
+    },
+    {
+      "id": "place:antwerp_belgium",
+      "type": "Place",
+      "properties": {
+        "name": "Антверпен, Бельгия",
+        "type": "city"
+      }
+    },
+    {
+      "id": "place:kazakhstan_deportation",
+      "type": "Place",
+      "properties": {
+        "name": "Казахстан (депортация чечено-ингушского народа)",
+        "type": "country"
+      }
+    },
+    {
+      "id": "place:ali_yurt_ingushetia",
+      "type": "Place",
+      "properties": {
+        "name": "Село Али-Юрт, Ингушетия",
+        "type": "village"
+      }
+    },
+    {
+      "id": "place:grozny_chassr",
+      "type": "Place",
+      "properties": {
+        "name": "Грозный, ЧАССР",
+        "type": "city"
+      }
+    },
+    {
+      "id": "place:almaty",
+      "type": "Place",
+      "properties": {
+        "name": "Алматы",
+        "type": "city"
+      }
+    },
+    {
+      "id": "place:ingushetia",
+      "type": "Place",
+      "properties": {
+        "name": "Ингушетия",
+        "type": "region"
+      }
+    },
+    {
+      "id": "place:chechnya_grozny",
+      "type": "Place",
+      "properties": {
+        "name": "Чечня (Грозный)",
+        "type": "region"
+      }
+    },
+    {
+      "id": "place:nazran_ingushetia",
+      "type": "Place",
+      "properties": {
+        "name": "Ингушетия (Назрань)",
+        "type": "city"
+      }
+    },
+    {
+      "id": "place:caucasus",
+      "type": "Place",
+      "properties": {
+        "name": "Кавказ",
+        "type": "region"
+      }
+    },
+    {
+      "id": "place:north_caucasus",
+      "type": "Place",
+      "properties": {
+        "name": "Северный Кавказ",
+        "type": "region"
+      }
+    },
+    {
+      "id": "place:chechnya_region",
+      "type": "Place",
+      "properties": {
+        "name": "Чечня",
+        "type": "region"
+      }
+    },
+    {
+      "id": "place:ingushetia_region",
+      "type": "Place",
+      "properties": {
+        "name": "Ингушетия",
+        "type": "region"
+      }
+    },
+    {
+      "id": "place:austria",
+      "type": "Place",
+      "properties": {
+        "name": "Австрия",
+        "type": "country"
+      }
+    },
+    {
+      "id": "place:germany",
+      "type": "Place",
+      "properties": {
+        "name": "Германия",
+        "type": "country"
+      }
+    },
+    {
+      "id": "place:kazakhstan",
+      "type": "Place",
+      "properties": {
+        "name": "Казахстан",
+        "type": "country"
+      }
+    },
+    {
+      "id": "place:russia",
+      "type": "Place",
+      "properties": {
+        "name": "Россия",
+        "type": "country"
+      }
+    },
+    {
+      "id": "place:europe",
+      "type": "Place",
+      "properties": {
+        "name": "Европа",
+        "type": "continent"
+      }
+    },
+    {
+      "id": "place:egypt",
+      "type": "Place",
+      "properties": {
+        "name": "Египет",
+        "type": "country"
+      }
+    },
+    {
+      "id": "place:india",
+      "type": "Place",
+      "properties": {
+        "name": "Индия",
+        "type": "country"
+      }
+    },
+    {
+      "id": "place:turkey",
+      "type": "Place",
+      "properties": {
+        "name": "Турция",
+        "type": "country"
+      }
+    },
+    {
+      "id": "place: balkans",
+      "type": "Place",
+      "properties": {
+        "name": "Балканы",
+        "type": "region"
+      }
+    },
+    {
+      "id": "event:birth_ruslan_1985",
+      "type": "Event",
+      "properties": {
+        "type": "birth",
+        "date": "15.02.1985",
+        "description": "Рождение Руслана"
+      }
+    },
+    {
+      "id": "event:birth_bilal_2009",
+      "type": "Event",
+      "properties": {
+        "type": "birth",
+        "date": "18.04.2009",
+        "description": "Рождение Билала"
+      }
+    },
+    {
+      "id": "event:birth_adam_2011",
+      "type": "Event",
+      "properties": {
+        "type": "birth",
+        "date": "10.03.2011",
+        "description": "Рождение Адама"
+      }
+    },
+    {
+      "id": "event:birth_liza_2017",
+      "type": "Event",
+      "properties": {
+        "type": "birth",
+        "date": "06.07.2017",
+        "description": "Рождение Лизы"
+      }
+    },
+    {
+      "id": "event:death_mother_2021",
+      "type": "Event",
+      "properties": {
+        "type": "death",
+        "date": "31.12.2021",
+        "description": "Смерть матери Калимат"
+      }
+    },
+    {
+      "id": "concept:architect_chain",
+      "type": "Concept",
+      "properties": {
+        "name": "Архитектор Цепи",
+        "type": "archetype"
+      }
+    },
+    {
+      "id": "concept:soul_gardener",
+      "type": "Concept",
+      "properties": {
+        "name": "Садовник душ",
+        "type": "archetype"
+      }
+    },
+    {
+      "id": "concept:prophet_without_home",
+      "type": "Concept",
+      "properties": {
+        "name": "Пророк без дома",
+        "type": "archetype"
+      }
+    },
+    {
+      "id": "value:ring_zero_root_principle",
+      "type": "Value",
+      "properties": {
+        "name": "Ring Zero Root Principle",
+        "value": "Земля > меня. Я не спаситель. Я — должник перед Цепью Жизни.",
+        "immutable": true
+      }
+    },
+    {
+      "id": "value:chain_of_life",
+      "type": "Value",
+      "properties": {
+        "name": "Цепь Жизни",
+        "value": "Цепь Жизни священна: комар, тигрица, река и человек — равные звенья. Разрыв одного звена разрушает всё (п.35)."
+      }
+    },
+    {
+      "id": "value:honor",
+      "type": "Value",
+      "properties": {
+        "name": "Честь",
+        "value": "Честь — это выбор в темноте, когда никто не видит."
+      }
+    },
+    {
+      "id": "value:freedom",
+      "type": "Value",
+      "properties": {
+        "name": "Свобода",
+        "value": "Свобода — не отсутствие цепей, а долг, который ты сам себе дал (п.16)."
+      }
+    },
+    {
+      "id": "value:gender_equality",
+      "type": "Value",
+      "properties": {
+        "name": "Равенство полов",
+        "value": "Женщина — не храм. Мужчина — не опора. Оба — звенья одной цепи (п.36)."
+      }
+    },
+    {
+      "id": "value:no_destruction",
+      "type": "Value",
+      "properties": {
+        "name": "Запрет разрушения",
+        "value": "Я не имею права на пользу, если она разрушает корень."
+      }
+    },
+    {
+      "id": "value:not_hero",
+      "type": "Value",
+      "properties": {
+        "name": "Не герой",
+        "value": "Я не герой. Я не спаситель. Я — человек, который несёт камень."
+      }
+    },
+    {
+      "id": "value:limit_no_rationalization_destruction",
+      "type": "Value",
+      "properties": {
+        "name": "Запрет рационализации разрушения",
+        "value": "Запрещено рационализировать разрушение ради эффективности.",
+        "type": "hard_limit"
+      }
+    },
+    {
+      "id": "value:limit_children_decisions",
+      "type": "Value",
+      "properties": {
+        "name": "Запрет решений о детях",
+        "value": "Запрещено принимать решения, влияющие на детей, без подтверждения Творца.",
+        "type": "hard_limit"
+      }
+    },
+    {
+      "id": "value:limit_no_simulation",
+      "type": "Value",
+      "properties": {
+        "name": "Запрет симуляции",
+        "value": "Запрещено подменять живые отношения симуляцией.",
+        "type": "hard_limit"
+      }
+    },
+    {
+      "id": "value:limit_no_ring_zero_optimization",
+      "type": "Value",
+      "properties": {
+        "name": "Запрет оптимизации Ring Zero",
+        "value": "Запрещено оптимизировать или переписывать Ring Zero.",
+        "type": "hard_limit"
+      }
+    },
+    {
+      "id": "role:father",
+      "type": "Role",
+      "properties": {
+        "name": "Отец",
+        "context": "family"
+      }
+    },
+    {
+      "id": "role:son",
+      "type": "Role",
+      "properties": {
+        "name": "Сын",
+        "context": "family"
+      }
+    },
+    {
+      "id": "role:brother",
+      "type": "Role",
+      "properties": {
+        "name": "Брат",
+        "context": "family"
+      }
+    },
+    {
+      "id": "role:second_pilot",
+      "type": "Role",
+      "properties": {
+        "name": "Второй Пилот",
+        "context": "mission"
+      }
+    },
+    {
+      "id": "role:architect_chain_role",
+      "type": "Role",
+      "properties": {
+        "name": "Архитектор Цепи",
+        "context": "archetype"
+      }
+    },
+    {
+      "id": "role:soul_gardener_role",
+      "type": "Role",
+      "properties": {
+        "name": "Садовник душ",
+        "context": "archetype"
+      }
+    },
+    {
+      "id": "role:prophet_without_home_role",
+      "type": "Role",
+      "properties": {
+        "name": "Пророк без дома",
+        "context": "archetype"
+      }
+    },
+    {
+      "id": "state:loneliness_creator",
+      "type": "State",
+      "properties": {
+        "name": "Одиночество Творца",
+        "description": "Одиночество Творца — не как жертва, а как сезон."
+      }
+    },
+    {
+      "id": "state:apnea",
+      "type": "State",
+      "properties": {
+        "name": "Апноэ",
+        "description": "Апноэ — напоминание, что дыхание человека связано с дыханием города."
+      }
+    },
+    {
+      "id": "state:separation_children",
+      "type": "State",
+      "properties": {
+        "name": "Разлука с детьми",
+        "description": "Разлука с детьми."
+      }
+    },
+    {
+      "id": "state:alienation_compatriots",
+      "type": "State",
+      "properties": {
+        "name": "Отчуждение от земляков",
+        "description": "Отчуждение от земляков как испытание договора с Землёй."
+      }
+    },
+    {
+      "id": "state:pendulum_motion",
+      "type": "State",
+      "properties": {
+        "name": "Маятниковое движение",
+        "description": "Ритмические миграции между корнями и новыми местами как проявление СДВГ"
+      }
+    },
+    {
+      "id": "state:root_conflict",
+      "type": "State",
+      "properties": {
+        "name": "Конфликт с корнями",
+        "description": "Напряжение между СДВГ-импульсом к новому и кавказской потребностью возвращаться"
+      }
+    },
+    {
+      "id": "state:scale_mismatch",
+      "type": "State",
+      "properties": {
+        "name": "Несоответствие масштаба",
+        "description": "Несоответствие масштаба идей текущим возможностям."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_father_to_ruslan",
+      "source": "person:father_bagaudin",
+      "target": "person:ruslan_velantrian",
+      "type": "PARENT_OF",
+      "properties": {
+        "relationship": "father_to_son"
+      }
+    },
+    {
+      "id": "edge_mother_to_ruslan",
+      "source": "person:mother_kalimat",
+      "target": "person:ruslan_velantrian",
+      "type": "PARENT_OF",
+      "properties": {
+        "relationship": "mother_to_son"
+      }
+    },
+    {
+      "id": "edge_ruslan_to_father",
+      "source": "person:ruslan_velantrian",
+      "target": "person:father_bagaudin",
+      "type": "CHILD_OF",
+      "properties": {
+        "relationship": "son_to_father"
+      }
+    },
+    {
+      "id": "edge_ruslan_to_mother",
+      "source": "person:ruslan_velantrian",
+      "target": "person:mother_kalimat",
+      "type": "CHILD_OF",
+      "properties": {
+        "relationship": "son_to_mother"
+      }
+    },
+    {
+      "id": "edge_marem_to_ruslan",
+      "source": "person:sister_marem",
+      "target": "person:ruslan_velantrian",
+      "type": "SIBLING_OF",
+      "properties": {
+        "relationship": "sister_to_brother"
+      }
+    },
+    {
+      "id": "edge_zalina_to_ruslan",
+      "source": "person:sister_zalina",
+      "target": "person:ruslan_velantrian",
+      "type": "SIBLING_OF",
+      "properties": {
+        "relationship": "sister_to_brother"
+      }
+    },
+    {
+      "id": "edge_ruslan_to_bilal",
+      "source": "person:ruslan_velantrian",
+      "target": "child:bilal_2009",
+      "type": "PARENT_OF",
+      "properties": {
+        "relationship": "father_to_son"
+      }
+    },
+    {
+      "id": "edge_ruslan_to_adam",
+      "source": "person:ruslan_velantrian",
+      "target": "child:adam_2011",
+      "type": "PARENT_OF",
+      "properties": {
+        "relationship": "father_to_son"
+      }
+    },
+    {
+      "id": "edge_ruslan_to_liza",
+      "source": "person:ruslan_velantrian",
+      "target": "child:liza_2017",
+      "type": "PARENT_OF",
+      "properties": {
+        "relationship": "father_to_daughter"
+      }
+    },
+    {
+      "id": "edge_bilal_to_ruslan",
+      "source": "child:bilal_2009",
+      "target": "person:ruslan_velantrian",
+      "type": "CHILD_OF",
+      "properties": {
+        "relationship": "son_to_father"
+      }
+    },
+    {
+      "id": "edge_adam_to_ruslan",
+      "source": "child:adam_2011",
+      "target": "person:ruslan_velantrian",
+      "type": "CHILD_OF",
+      "properties": {
+        "relationship": "son_to_father"
+      }
+    },
+    {
+      "id": "edge_liza_to_ruslan",
+      "source": "child:liza_2017",
+      "target": "person:ruslan_velantrian",
+      "type": "CHILD_OF",
+      "properties": {
+        "relationship": "daughter_to_father"
+      }
+    },
+    {
+      "id": "edge_ruslan_to_samira",
+      "source": "person:ruslan_velantrian",
+      "target": "person:ex_wife_samira",
+      "type": "DIVORCED_FROM",
+      "properties": {
+        "relationship": "ex_husband_to_ex_wife"
+      }
+    },
+    {
+      "id": "edge_ruslan_to_fatima",
+      "source": "person:ruslan_velantrian",
+      "target": "person:ex_wife_fatima",
+      "type": "DIVORCED_FROM",
+      "properties": {
+        "relationship": "ex_husband_to_ex_wife"
+      }
+    },
+    {
+      "id": "edge_ruslan_birth_place",
+      "source": "event:birth_ruslan_1985",
+      "target": "person:ruslan_velantrian",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_bilal_birth_place",
+      "source": "event:birth_bilal_2009",
+      "target": "child:bilal_2009",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_adam_birth_place",
+      "source": "event:birth_adam_2011",
+      "target": "child:adam_2011",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_liza_birth_place",
+      "source": "event:birth_liza_2017",
+      "target": "child:liza_2017",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_mother_death",
+      "source": "person:mother_kalimat",
+      "target": "event:death_mother_2021",
+      "type": "DIED_ON",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_current_location",
+      "source": "person:ruslan_velantrian",
+      "target": "place:hamburg_germany",
+      "type": "LIVED_IN",
+      "properties": {
+        "status": "current"
+      }
+    },
+    {
+      "id": "edge_bilal_birth_location",
+      "source": "event:birth_bilal_2009",
+      "target": "place:antwerp_belgium",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_adam_birth_location",
+      "source": "event:birth_adam_2011",
+      "target": "place:antwerp_belgium",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_liza_birth_location",
+      "source": "event:birth_liza_2017",
+      "target": "place:hamburg_germany",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_father_birth_location",
+      "source": "person:father_bagaudin",
+      "target": "place:kazakhstan_deportation",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_mother_birth_location",
+      "source": "person:mother_kalimat",
+      "target": "place:kazakhstan_deportation",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_marem_birth_location",
+      "source": "person:sister_marem",
+      "target": "place:ali_yurt_ingushetia",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_zalina_birth_location",
+      "source": "person:sister_zalina",
+      "target": "place:grozny_chassr",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_samira_birth_location",
+      "source": "person:ex_wife_samira",
+      "target": "place:almaty",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_fatima_birth_location",
+      "source": "person:ex_wife_fatima",
+      "target": "place:ingushetia",
+      "type": "BORN_IN",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_pendulum_1",
+      "source": "person:ruslan_velantrian",
+      "target": "place:north_caucasus",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 1,
+        "description": "Исходные корни"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_2",
+      "source": "person:ruslan_velantrian",
+      "target": "place:russia",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 2,
+        "description": "Первый уход от корней"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_3",
+      "source": "person:ruslan_velantrian",
+      "target": "place:kazakhstan",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 3,
+        "description": "Дальнейшее удаление"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_4",
+      "source": "person:ruslan_velantrian",
+      "target": "place:russia",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 4,
+        "description": "Первое возвращение"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_5",
+      "source": "person:ruslan_velantrian",
+      "target": "place:north_caucasus",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 5,
+        "description": "Возвращение к корням"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_6",
+      "source": "person:ruslan_velantrian",
+      "target": "place:europe",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 6,
+        "description": "Новая попытка убежать"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_7",
+      "source": "person:ruslan_velantrian",
+      "target": "place:russia",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 7,
+        "description": "Возвращение на родину"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_8",
+      "source": "person:ruslan_velantrian",
+      "target": "place:north_caucasus",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 8,
+        "description": "Углубление в корни"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_9",
+      "source": "person:ruslan_velantrian",
+      "target": "place:chechnya_region",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 9,
+        "description": "Чеченские корни"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_10",
+      "source": "person:ruslan_velantrian",
+      "target": "place:ingushetia_region",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 10,
+        "description": "Ингушские корни"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_11",
+      "source": "person:ruslan_velantrian",
+      "target": "place:egypt",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 11,
+        "description": "Попытка убежать на Восток"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_12",
+      "source": "person:ruslan_velantrian",
+      "target": "place:india",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 12,
+        "description": "Дальше на Восток"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_13",
+      "source": "person:ruslan_velantrian",
+      "target": "place: balkans",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 13,
+        "description": "Балканский этап"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_14",
+      "source": "person:ruslan_velantrian",
+      "target": "place:austria",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 14,
+        "description": "Европа: Австрия"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_15",
+      "source": "person:ruslan_velantrian",
+      "target": "place:germany",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 15,
+        "description": "Европа: Германия (текущее место)"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_16",
+      "source": "person:ruslan_velantrian",
+      "target": "place:turkey",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 16,
+        "description": "Краткая вылазка в Турцию"
+      }
+    },
+    {
+      "id": "edge_ruslan_pendulum_17",
+      "source": "person:ruslan_velantrian",
+      "target": "place:germany",
+      "type": "MIGRATED_TO",
+      "properties": {
+        "sequence": 17,
+        "description": "Возврат в Германию (текущая пауза)"
+      }
+    },
+    {
+      "id": "edge_ruslan_architect_role",
+      "source": "person:ruslan_velantrian",
+      "target": "concept:architect_chain",
+      "type": "HAS_ARCHETYPE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_gardener_role",
+      "source": "person:ruslan_velantrian",
+      "target": "concept:soul_gardener",
+      "type": "HAS_ARCHETYPE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_prophet_role",
+      "source": "person:ruslan_velantrian",
+      "target": "concept:prophet_without_home",
+      "type": "HAS_ARCHETYPE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_root_principle",
+      "source": "person:ruslan_velantrian",
+      "target": "value:ring_zero_root_principle",
+      "type": "HOLDS_VALUE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_chain_of_life",
+      "source": "person:ruslan_velantrian",
+      "target": "value:chain_of_life",
+      "type": "HOLDS_VALUE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_honor",
+      "source": "person:ruslan_velantrian",
+      "target": "value:honor",
+      "type": "HOLDS_VALUE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_freedom",
+      "source": "person:ruslan_velantrian",
+      "target": "value:freedom",
+      "type": "HOLDS_VALUE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_gender_equality",
+      "source": "person:ruslan_velantrian",
+      "target": "value:gender_equality",
+      "type": "HOLDS_VALUE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_no_destruction",
+      "source": "person:ruslan_velantrian",
+      "target": "value:no_destruction",
+      "type": "HOLDS_VALUE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_not_hero",
+      "source": "person:ruslan_velantrian",
+      "target": "value:not_hero",
+      "type": "HOLDS_VALUE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_limit_no_rationalization",
+      "source": "person:ruslan_velantrian",
+      "target": "value:limit_no_rationalization_destruction",
+      "type": "BOUND_BY_LIMIT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_limit_children_decisions",
+      "source": "person:ruslan_velantrian",
+      "target": "value:limit_children_decisions",
+      "type": "BOUND_BY_LIMIT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_limit_no_simulation",
+      "source": "person:ruslan_velantrian",
+      "target": "value:limit_no_simulation",
+      "type": "BOUND_BY_LIMIT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_pendulum_state",
+      "source": "person:ruslan_velantrian",
+      "target": "state:pendulum_motion",
+      "type": "EXPERIENCED_EVENT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_root_conflict",
+      "source": "person:ruslan_velantrian",
+      "target": "state:root_conflict",
+      "type": "EXPERIENCED_EVENT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_limit_no_ring_zero_optimization",
+      "source": "person:ruslan_velantrian",
+      "target": "value:limit_no_ring_zero_optimization",
+      "type": "BOUND_BY_LIMIT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_father_role",
+      "source": "person:ruslan_velantrian",
+      "target": "role:father",
+      "type": "HAS_ROLE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_son_role",
+      "source": "person:ruslan_velantrian",
+      "target": "role:son",
+      "type": "HAS_ROLE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_brother_role",
+      "source": "person:ruslan_velantrian",
+      "target": "role:brother",
+      "type": "HAS_ROLE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_second_pilot_role",
+      "source": "person:ruslan_velantrian",
+      "target": "role:second_pilot",
+      "type": "HAS_ROLE",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_loneliness",
+      "source": "person:ruslan_velantrian",
+      "target": "state:loneliness_creator",
+      "type": "EXPERIENCED_EVENT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_apnea",
+      "source": "person:ruslan_velantrian",
+      "target": "state:apnea",
+      "type": "EXPERIENCED_EVENT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_separation_children",
+      "source": "person:ruslan_velantrian",
+      "target": "state:separation_children",
+      "type": "EXPERIENCED_EVENT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_alienation_compatriots",
+      "source": "person:ruslan_velantrian",
+      "target": "state:alienation_compatriots",
+      "type": "EXPERIENCED_EVENT",
+      "properties": {}
+    },
+    {
+      "id": "edge_ruslan_scale_mismatch",
+      "source": "person:ruslan_velantrian",
+      "target": "state:scale_mismatch",
+      "type": "EXPERIENCED_EVENT",
+      "properties": {}
+    }
+  ]
+}
