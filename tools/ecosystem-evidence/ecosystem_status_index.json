@@ -1,0 +1,78 @@
+{
+  "index_schema_version": "0.1.1",
+  "_note": "Navigation only. This index owns no project status, authority, runtime truth, or implementation claim. It routes each project to its own AI entrypoint/machine surface and optional verification binding.",
+  "projects": [
+    {
+      "id": "crystal",
+      "repo": "velantrian/velantrim-exocortex-crystal",
+      "ai_entry": "docs/ai/README.md",
+      "project_manifest": "docs/status/implementation-manifest.json",
+      "claims_file": "bindings/crystal.claims.json"
+    },
+    {
+      "id": "titan",
+      "repo": "velantrian/Velantrim-ExoCortex-Titan",
+      "ai_entry": "docs/ai/README.md",
+      "project_manifest": "docs/project_status/FOR_AI.json",
+      "component_map": "docs/ai/COMPONENT_MAP.md",
+      "claims_file": "bindings/titan.claims.json"
+    },
+    {
+      "id": "soul",
+      "repo": "velantrian/velantrim-mentaury-soul",
+      "ai_entry": "docs/ai/README.md",
+      "project_manifest": "docs/ai/project_manifest.json",
+      "state_manifest": "docs/state/project_state.json",
+      "claims_file": "bindings/soul.claims.json",
+      "_note": "Binding verifies the repository's own documentation/navigation manifest. The state snapshot remains derived and explicitly yields to live GitHub + CURRENT_STATUS."
+    },
+    {
+      "id": "native-kernel",
+      "repo": "velantrian/velantrim-native-kernel",
+      "ai_entry": "docs/ai/README.md",
+      "project_manifest": "project-state.json",
+      "claims_file": "bindings/native-kernel.claims.json"
+    },
+    {
+      "id": "continuum",
+      "repo": "velantrian/Velantrim-Continuum",
+      "ai_entry": "docs/ai/README.md",
+      "project_manifest": "project-state.json",
+      "claims_file": "bindings/continuum.claims.json"
+    },
+    {
+      "id": "mentaury-kernel",
+      "repo": "velantrian/Mentaury-Kernel",
+      "ai_entry": "docs/AI_CONTEXT.md",
+      "project_manifest": null,
+      "claims_file": null,
+      "_note": "AI orientation exists, but no project-state/project-manifest JSON was found during the bounded 2026-08-27 inspection. Do not synthesize one here."
+    },
+    {
+      "id": "ai-skills",
+      "repo": "velantrian/velantrim-ai-skills",
+      "ai_entry": "docs/ai/README.md",
+      "project_manifest": null,
+      "claims_file": null,
+      "_note": "The project explicitly says machine_state_file is NOT_REQUIRED_AT_CURRENT_REPOSITORY_SCOPE. Do not create a duplicate truth surface merely for this index."
+    },
+    {
+      "id": "cognitive-os",
+      "repo": "velantrian/Velantrim-Version-LLM-AI-Cognitive-OS",
+      "ai_entry": null,
+      "human_entry": "README.md",
+      "project_manifest": null,
+      "claims_file": null,
+      "_note": "Research-architecture repository. No dedicated AI entrypoint or machine state manifest was found during the bounded 2026-08-27 inspection."
+    },
+    {
+      "id": "umbrella",
+      "repo": "velantrian/velantrim",
+      "ai_entry": null,
+      "human_entry": "README.md",
+      "project_manifest": null,
+      "claims_file": null,
+      "_note": "Umbrella repository currently has no AGENTS.md or machine state manifest. This index must not become a status owner."
+    }
+  ]
+}
