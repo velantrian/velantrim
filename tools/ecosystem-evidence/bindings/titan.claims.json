@@ -1,0 +1,19 @@
+{
+  "claims_schema_version": "0.1.1",
+  "project": "titan",
+  "project_manifest": "docs/project_status/FOR_AI.json",
+  "_note": "Каждый claim проверяет утверждение, которое манифест Titan УЖЕ делает сам. Этот binding не является новым status owner.",
+  "claims": [
+    {"id":"stage10_sha_known","type":"commit_known","pointer":"/snapshot/stage10_merged_main_sha"},
+    {"id":"stage10_is_ancestor_of_head","type":"commit_is_ancestor_or_equal","older_pointer":"/snapshot/stage10_merged_main_sha"},
+    {"id":"stage10_drift_from_head","type":"checkpoint_drift","older_pointer":"/snapshot/stage10_merged_main_sha","warn_above":30},
+    {"id":"stage2_merge_sha_known","type":"commit_known","pointer":"/key_stage_evidence/stage_2/merge_sha"},
+    {"id":"stage3_merge_sha_known","type":"commit_known","pointer":"/key_stage_evidence/stage_3/merge_sha"},
+    {"id":"stage5_merge_sha_known","type":"commit_known","pointer":"/key_stage_evidence/stage_5/merge_sha"},
+    {"id":"stage6_merge_sha_known","type":"commit_known","pointer":"/key_stage_evidence/stage_6/merge_sha"},
+    {"id":"stage7_merge_sha_known","type":"commit_known","pointer":"/key_stage_evidence/stage_7/merge_sha"},
+    {"id":"stage8_merge_sha_known","type":"commit_known","pointer":"/key_stage_evidence/stage_8/merge_sha"},
+    {"id":"stage9_merge_sha_known","type":"commit_known","pointer":"/key_stage_evidence/stage_9/merge_sha"},
+    {"id":"stage_shas_are_ordered","type":"commit_is_ancestor_or_equal","older_pointer":"/key_stage_evidence/stage_2/merge_sha","newer_pointer":"/key_stage_evidence/stage_9/merge_sha"}
+  ]
+}
