@@ -1,0 +1,20 @@
+{
+  "claims_schema_version": "0.1.1",
+  "project": "native-kernel",
+  "project_manifest": "project-state.json",
+  "_note": "Checks only claims already present in Native Kernel project-state.json. No H11 status is re-authored here.",
+  "claims": [
+    {"id":"manifest_source_commit_known","type":"commit_known","pointer":"/checkpoints/manifest_generated_from_sha"},
+    {"id":"manifest_source_is_ancestor_of_head","type":"commit_is_ancestor_or_equal","older_pointer":"/checkpoints/manifest_generated_from_sha"},
+    {"id":"manifest_source_drift","type":"checkpoint_drift","older_pointer":"/checkpoints/manifest_generated_from_sha","warn_above":50},
+    {"id":"runtime_checkpoint_known","type":"commit_known","pointer":"/checkpoints/runtime_checkpoint_sha"},
+    {"id":"runtime_integrity_checkpoint_known","type":"commit_known","pointer":"/checkpoints/runtime_integrity_checkpoint_sha"},
+    {"id":"evidence_producing_checkpoint_known","type":"commit_known","pointer":"/checkpoints/evidence_producing_sha"},
+    {"id":"publication_checkpoint_known","type":"commit_known","pointer":"/checkpoints/publication_checkpoint_sha"},
+    {"id":"notion_sync_checkpoint_known","type":"commit_known","pointer":"/checkpoints/notion_synchronized_through_sha"},
+    {"id":"architecture_refoundation_en_exists","type":"path_exists","pointer":"/tracks/long_horizon_research/architecture_refoundation/plan_en"},
+    {"id":"architecture_refoundation_ru_exists","type":"path_exists","pointer":"/tracks/long_horizon_research/architecture_refoundation/plan_ru"},
+    {"id":"bpv1_plan_exists","type":"path_exists","pointer":"/tracks/long_horizon_research/post_blueprint_validation/bpv1_plan/path"},
+    {"id":"residual_a10_plan_exists","type":"path_exists","pointer":"/tracks/long_horizon_research/post_blueprint_validation/residual_a10_validation_plan/path"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "claims_schema_version": "0.1.1",
+  "project": "continuum",
+  "project_manifest": "project-state.json",
+  "_note": "Checks only machine-state pointers already declared by Continuum. It does not authorize Pilot, Evidence Lock, E0-C/E0-T, production, or ecosystem integration.",
+  "claims": [
+    {"id":"foundation_merge_known","type":"commit_known","pointer":"/foundation_merge_sha"},
+    {"id":"verified_base_head_known","type":"commit_known","pointer":"/state_provenance/verified_base_head_sha"},
+    {"id":"verified_base_is_ancestor_of_head","type":"commit_is_ancestor_or_equal","older_pointer":"/state_provenance/verified_base_head_sha"},
+    {"id":"verified_base_drift","type":"checkpoint_drift","older_pointer":"/state_provenance/verified_base_head_sha","warn_above":30},
+    {"id":"canonical_experiment_protocol_exists","type":"path_exists","pointer":"/canonical_experiment_protocol"},
+    {"id":"ai_entry_exists","type":"path_exists","pointer":"/ai_entrypoint"},
+    {"id":"ai_contract_exists","type":"path_exists","pointer":"/ai_contract"},
+    {"id":"ai_current_state_exists","type":"path_exists","pointer":"/ai_current_state"},
+    {"id":"human_overview_exists","type":"path_exists","pointer":"/human_overview"},
+    {"id":"human_status_exists","type":"path_exists","pointer":"/human_status"},
+    {"id":"approved_gold_exists","type":"path_exists","pointer":"/human_reference_review/approved_gold_path"},
+    {"id":"approved_oracle_exists","type":"path_exists","pointer":"/human_reference_review/approved_oracle_path"},
+    {"id":"approval_record_exists","type":"path_exists","pointer":"/human_reference_review/approval_record"},
+    {"id":"tracked_pr_merge_known","type":"commit_known","pointer":"/state_sync/github/tracked_pull_request/expected_merge_commit_sha"}
+  ]
+}
