@@ -1,0 +1,19 @@
+{
+  "claims_schema_version": "0.1.1",
+  "project": "soul",
+  "project_manifest": "docs/ai/project_manifest.json",
+  "_note": "Routing/evidence-pointer checks only. This binding does not elevate the derived project_state snapshot to independent truth.",
+  "claims": [
+    {"id":"human_primary_exists","type":"path_exists","pointer":"/human_landing/primary"},
+    {"id":"human_overview_exists","type":"path_exists","pointer":"/human_landing/overview"},
+    {"id":"ai_entry_exists","type":"path_exists","pointer":"/ai_entry"},
+    {"id":"agent_contract_exists","type":"path_exists","pointer":"/agent_contract"},
+    {"id":"documentation_standard_exists","type":"path_exists","pointer":"/documentation_standard"},
+    {"id":"future_work_ledger_exists","type":"path_exists","pointer":"/future_work_ledger"},
+    {"id":"current_human_truth_exists","type":"path_exists","pointer":"/current_truth/human"},
+    {"id":"derived_machine_snapshot_exists","type":"path_exists","pointer":"/derived_views/machine_snapshot"},
+    {"id":"governance_doc_exists","type":"path_exists","pointer":"/authority_docs/0"},
+    {"id":"canon_doc_exists","type":"path_exists","pointer":"/authority_docs/1"},
+    {"id":"research_index_exists","type":"path_exists","pointer":"/authority_docs/2"}
+  ]
+}
