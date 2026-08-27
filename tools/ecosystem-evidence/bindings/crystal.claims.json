@@ -1,0 +1,29 @@
+{
+  "claims_schema_version": "0.1.1",
+  "project": "crystal",
+  "project_manifest": "docs/status/implementation-manifest.json",
+  "_note": "Каждый claim проверяет утверждение, которое манифест Crystal УЖЕ делает сам. Этот файл не хранит статусов — только тип проверки и JSON-pointer в манифест проекта.",
+  "claims": [
+    {"id":"checkpoint_commit_known","type":"commit_known","pointer":"/current_architecture_checkpoint/commit"},
+    {"id":"checkpoint_is_ancestor_of_head","type":"commit_is_ancestor_or_equal","older_pointer":"/current_architecture_checkpoint/commit"},
+    {"id":"checkpoint_drift_from_head","type":"checkpoint_drift","older_pointer":"/current_architecture_checkpoint/commit","warn_above":50},
+    {"id":"verified_runtime_checkpoint_commit_known","type":"commit_known","pointer":"/verified_runtime_checkpoint/commit"},
+    {"id":"reader_core_rc1_runtime_module_exists","type":"path_exists","pointer":"/reader_core_rc1/runtime_module"},
+    {"id":"reader_core_rc1_test_module_exists","type":"path_exists","pointer":"/reader_core_rc1/test_module"},
+    {"id":"reader_core_rc2_runtime_module_exists","type":"path_exists","pointer":"/reader_core_rc2/runtime_module"},
+    {"id":"reader_core_rc2_test_module_exists","type":"path_exists","pointer":"/reader_core_rc2/test_module"},
+    {"id":"reader_core_rc3_runtime_module_exists","type":"path_exists","pointer":"/reader_core_rc3/runtime_module"},
+    {"id":"reader_core_rc3_test_module_exists","type":"path_exists","pointer":"/reader_core_rc3/test_module"},
+    {"id":"reader_core_rc4_runtime_module_exists","type":"path_exists","pointer":"/reader_core_rc4/runtime_module"},
+    {"id":"reader_core_rc4_test_module_exists","type":"path_exists","pointer":"/reader_core_rc4/test_module"},
+    {"id":"reader_core_rc5_runtime_module_exists","type":"path_exists","pointer":"/reader_core_rc5/runtime_module"},
+    {"id":"reader_core_rc5_test_module_exists","type":"path_exists","pointer":"/reader_core_rc5/test_module"},
+    {"id":"reader_core_rc6_runtime_module_exists","type":"path_exists","pointer":"/reader_core_rc6/runtime_module"},
+    {"id":"reader_core_rc6_test_module_exists","type":"path_exists","pointer":"/reader_core_rc6/test_module"},
+    {"id":"reader_core_rc7_runtime_module_exists","type":"path_exists","pointer":"/reader_core_rc7/runtime_module"},
+    {"id":"reader_core_rc7_test_module_exists","type":"path_exists","pointer":"/reader_core_rc7/test_module"},
+    {"id":"reader_rc9_runtime_module_exists","type":"path_exists","pointer":"/reader_rc9_lexical_candidate_discovery/runtime_module"},
+    {"id":"rrtic_v1_architecture_contract_exists","type":"path_exists","pointer":"/reader_retrieval_typed_inspection_contract_v1/architecture_contract"},
+    {"id":"rrtic_v1_machine_contract_exists","type":"path_exists","pointer":"/reader_retrieval_typed_inspection_contract_v1/machine_contract"}
+  ]
+}
