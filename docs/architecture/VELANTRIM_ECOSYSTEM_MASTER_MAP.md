@@ -5,6 +5,8 @@
 
 > Freshness rule: for volatile state, live GitHub and each project's own current-state / governance documents win. This map does not transfer authority between repositories.
 
+**Current research-routing checkpoint (2026-09-02):** after bounded F3 closure, the next distinct CLOS research frontier is Event Segmentation / `ES-02`. This is fixture-first research only: no owner, Event primitive, runtime, implementation milestone, or production authority is established. `COG-EXP-001` remains a separate proposed experiment, not the automatically selected next milestone. The dedicated [`Velantrim-Cognitive-Life-OS-CLOS-`](https://github.com/velantrian/Velantrim-Cognitive-Life-OS-CLOS-) repository is the primary GitHub research/documentation home for CLOS, not a new authority root.
+
 ## 1. What Velantrim is
 
 Velantrim is an ecosystem of independent but potentially composable systems. Responsibilities are deliberately separated across operation, memory/evidence, cognition/identity, semantic invariants, process continuity, composition rules, reusable AI methods, and cognitive research.
@@ -53,6 +55,7 @@ UNKNOWN ≠ false
 | 🧩 velantrim-ai-skills | project-neutral AI methodologies, roles, Skills, checklists, templates | authority over a target project |
 | 🧭 Knowledge Atlas | ecosystem navigation and source routing | live runtime-state authority |
 | ⚗️ Velantrim Cognitive Life OS | research blueprint for cognitive mechanics, reasoning operators, model revision, inquiry, measurement-first work | apex authority root, production runtime, proven universal theory of mind |
+| 🔬 State Validation Lab | isolated research/validation surface for state-boundary hypotheses and falsifiable fixtures | runtime authority, Canon authority, action authority, production authorization |
 | 🧠 Velantrim System OS | current/research bridge and system-level orientation | automatically authorized shared runtime |
 | 🧠 Velantrim-Version-LLM-AI-Cognitive-OS | existing cognitive/research surface; exact authority comes from its own docs | assumed integrated cognitive runtime |
 | 🏛️ velantrian/velantrim | umbrella/root repository for cross-project documentation | automatic inheritance of authority from or over child projects |
@@ -259,7 +262,7 @@ The objective is to preserve inspectable reasons for revision without turning fr
 
 ## 10. COG-EXP-001
 
-**Status:** proposed research experiment only.
+**Status:** proposed research candidate only; not the current selected frontier, not an implementation milestone, and not a runtime or authority decision.
 
 Hypothesis to test:
 
@@ -325,7 +328,8 @@ not by having completely separate intelligence architectures.
 
 | New concern | Likely current home | Do not do |
 |---|---|---|
-| 🧪 COG-EXP-001 | Cognitive Life OS / existing Cognitive-OS research surface after reading its own authority docs | do not auto-create another major repo |
+| 🔬 ES-02 Event Segmentation | CLOS research surface; project-local semantic/runtime owners remain unchanged unless a concrete failure establishes otherwise | do not create a universal Event primitive, segmentation service, or owner by default |
+| 🧪 COG-EXP-001 | CLOS / existing Cognitive-OS research context as a separate proposed experiment | do not treat it as the selected next milestone or auto-create another major repo |
 | 🧩 Cognitive Inquiry Skill v0 | `velantrim-ai-skills` after separate Skill validation | do not store persistent truth/state there |
 | 📚 Evidence/provenance | potentially Crystal through its admission semantics | do not write research candidates directly into Canon |
 | 💭 Working beliefs/hypotheses | potentially Soul | do not transfer Crystal truth authority into Soul |
@@ -341,7 +345,8 @@ not by having completely separate intelligence architectures.
 - six primary repositories with distinct responsibility and authority boundaries;
 - Knowledge Atlas and ecosystem orientation documents;
 - Velantrim System OS documentation surface;
-- Velantrim Cognitive Life OS in documentation;
+- dedicated Velantrim Cognitive Life OS research/documentation repository;
+- State Validation Lab as a research-only adjacent surface with no runtime/Canon/action/production authority;
 - `velantrim-ai-skills` with AI entry, roles, and audit methodology;
 - `Velantrim-Version-LLM-AI-Cognitive-OS` repository;
 - managed-attention / next-experiment research material.
@@ -360,12 +365,12 @@ not by having completely separate intelligence architectures.
 ## 14. Recommended order
 
 1. Maintain this Master Map as an orientation surface.
-2. Specify COG-EXP-001 with explicit hypothesis, world, budgets, metrics, and falsification criteria.
-3. Run A/B/C/D benchmark without premature project integration.
-4. Review evidence.
-5. If justified, implement and validate `Cognitive Inquiry Skill v0` as a reusable method/interface.
-6. Write an Integration RFC assigning ownership for every state/action boundary.
-7. Run shadow/bounded integration without production authority.
+2. Run the bounded `ES-02` fixture/crosswalk and first test whether existing scoped-view, context, provenance, uncertainty, and revision semantics are sufficient.
+3. If existing semantics are sufficient, document evidence and stop without a new construct.
+4. Reopen implementation work only after a concrete owner-local failing path establishes a test, contract, or implementation gap.
+5. Keep `COG-EXP-001` as a separate proposed experiment until independently selected and specified.
+6. Review evidence before any Skill, integration RFC, or runtime proposal.
+7. Run any later integration only in shadow/bounded form without production authority.
 8. Admit runtime changes only through project-specific evidence and approval.
 
 ## 15. Do not do now
@@ -378,7 +383,7 @@ not by having completely separate intelligence architectures.
 - Do not accept the user's initial hypothesis as fact.
 - Do not force a hypothesis choice when the correct state is UNKNOWN.
 - Do not confuse cognitive boldness with external action freedom.
-- Do not integrate COG-EXP-001 into Titan/Crystal/Soul before measuring it.
+- Do not promote `ES-02` into a universal Event primitive/owner or integrate `COG-EXP-001` into Titan/Crystal/Soul before separate evidence and owner decisions.
 
 ## 16. One-line synthesis
 
@@ -388,4 +393,4 @@ The new cognitive research adds one further question:
 
 > How do we select not the most similar fact, but the next piece of knowledge or observation most likely to improve the decision while remaining aligned with human intent?
 
-**Next falsifiable checkpoint:** `COG-EXP-001`.
+**Current bounded research frontier:** Event Segmentation / `ES-02`. `COG-EXP-001` remains a separate proposed candidate.
