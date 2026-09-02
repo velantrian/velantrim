@@ -1,5 +1,27 @@
 # velantrim
 
+## 👤 What Velantrim is for
+
+Velantrim is a cognitive-system research ecosystem aimed at helping AI **avoid starting from zero every time a conversation, task, or model changes**. Instead of treating one long transcript as memory, the system aims to preserve organized context: what happened, what it means, where information came from, what remains relevant, what changed, and which source should be reopened when more detail is needed.
+
+The human-facing goal is simple: **less repeated explanation, less unnecessary rereading of long histories, faster context reconstruction, and more continuous work across chats, tasks, and replaceable AI models.**
+
+```text
+MESSAGES / DOCUMENTS / DECISIONS / EVENTS
+                  ↓
+        ORGANIZED CONTEXT + ESSENCE
+                  ↓
+        RELEVANT MEMORY / SOURCE
+                  ↓
+           AI CONTINUES WORK
+```
+
+A useful retrieval principle is:
+
+`ESSENCE → DISCOVERY → SOURCE REOPEN`
+
+Boundaries: **more data != better understanding**; **summary != source**; **retrieval != evidence**. This describes the human-facing system goal, not a claim that every end-to-end mechanism is already implemented or authorized in runtime.
+
 ## Ecosystem documentation
 
 - [Velantrim Substrate-Neutral Architecture](docs/architecture/VELANTRIM_SUBSTRATE_NEUTRAL_ARCHITECTURE.md) — cross-project orientation for preserving semantic distinctions and obligations across replaceable implementation technologies. Not a runtime, Canon, or authority domain.
