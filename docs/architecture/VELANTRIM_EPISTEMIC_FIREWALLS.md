@@ -6,9 +6,13 @@
 
 Across the Velantrim documentation set, many local rules take the shape `X != Y`: source is not evidence, unknown is not false, capability is not permission, and so on. Each rule guards a specific way reasoning silently drifts. As that list grows project by project, a real question follows: can these local firewalls be organized under a smaller number of general families without losing meaning?
 
-A dedicated validation round (MV-3, following whole-map coherence in MV-1 and sufficiency-under-pressure in MV-2) tested exactly that. The goal was **organizational compression**, not formal derivation:
+A dedicated validation round (MV-3, after the MV-1 whole-map coherence result) tested exactly that. MV-2 is **NOT_EXECUTED / DEFERRED** and is not evidence for the MV-3 result. The goal was **organizational compression**, not formal derivation:
 
 ```text
+MV-1 = BOUNDED-SUFFICIENT FOR CURRENT SCOPE
+MV-2 = NOT_EXECUTED / DEFERRED
+MV-3 = BOUNDED-SUFFICIENT FOR ORGANIZATIONAL COMPRESSION
+
 ORGANIZATIONAL COMPRESSION != FORMAL LOGICAL DERIVATION OF EVERY LOCAL FIREWALL
 META-FAMILY != PERMISSION TO DELETE A LOCAL DISTINCTION THAT HAS ITS OWN FAILURE MODE
 ```
