@@ -1,5 +1,13 @@
 # velantrim
 
+> 🌐 **The Velantrim research ecosystem explores how AI can continue work without losing its sources or the human's decisions.**
+>
+> **Why:** Important context can be lost when chats or models change. Separate projects study verifiable memory, meaning, continuity, navigation and bounded action.
+>
+> **Example:** A new assistant can reopen the original project evidence rather than promote a prior summary to unquestioned truth.
+>
+> **Scope:** Ecosystem documentation and research map, not evidence of one integrated production runtime.
+
 ## 👤 What Velantrim is for
 
 Velantrim is a cognitive-system research ecosystem aimed at helping AI **avoid starting from zero every time a conversation, task, or model changes**. Instead of treating one long transcript as memory, the system aims to preserve organized context: what happened, what it means, where information came from, what remains relevant, what changed, and which source should be reopened when more detail is needed.
