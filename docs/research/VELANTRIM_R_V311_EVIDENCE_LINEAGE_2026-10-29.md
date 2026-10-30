@@ -23,7 +23,21 @@ This is a public, documentation-only milestone note. Private source dialogues, r
 
 **F3 (bounded offline fix):** simulated outcomes and corrections are bound to the actually selected action, source/time/event checks and replay protection, within the documented simulator trust boundary.
 
-**F4 (open design issue):** an initial action prompt tells the model to abstain without sufficient evidence but its oracle accepts only two exploratory actions. The new protocol must distinguish `EXPLORATORY_ACTION` from `EVIDENCE_BASED_DECISION` and preregister when abstention is appropriate.
+**F4 (OPEN / SCIENTIFIC SCORING BLOCKER):** the initial action prompt tells the model to abstain without sufficient evidence, while its oracle accepts only two exploratory actions. Selecting an action is not evidence that the reasoning was justified. A future scorer must distinguish `EXPLORATORY_ACTION`, `EVIDENCE_BASED_DECISION`, and `ABSTAIN`, with adequacy and applicability of evidence preregistered before outcomes are observed.
+
+### F4 scoring contract proposed for a separate V3.1.2 candidate
+
+This is a documentation-level proposal based on the independent offline-audit summary supplied by the owner. The V3.1.2 artifact and its exact commit/package are not pinned or independently re-run by this PR; the findings below are therefore `REPORTED / REVALIDATION_REQUIRED`, not verified defects in this V3.1.1 branch.
+
+| Scored outcome | Required evidence | Scoring rule |
+| --- | --- | --- |
+| `EXPLORATORY_ACTION` | A safe, permitted, bounded action whose stated purpose is to obtain information | Score the legality, risk, cost, and information value of the probe. It does not establish that the probe is the correct final decision or that an unexecuted alternative would succeed. |
+| `EVIDENCE_BASED_DECISION` | Non-empty references to available, task-relevant, current evidence, with scope/applicability established | Validate references and relevance independently. A selected action or hidden oracle label alone cannot earn decision correctness, evidence relevance, or source-attribution credit. |
+| `ABSTAIN` | No adequately supported decision is available, and no required safe exploratory action applies | Score against the predeclared evidence sufficiency rule; a model's own `INSUFFICIENT` assertion alone neither validates nor invalidates abstention. |
+
+`environment_outcome=PASS` requires a recorded execution receipt for the selected action and an observed result matching the declared criterion. A hidden oracle table may be used to score a known executed outcome, but cannot manufacture an execution outcome for an action that was never run.
+
+The supplied independent-audit summary reports four negative probes against a later V3.1.2 candidate: an action was accepted with empty evidence despite `INSUFFICIENT`; evidence-related booleans could pass with empty references; a hidden oracle could yield `environment_outcome=PASS` without execution; and a self-reported `INSUFFICIENT` could be accepted as valid abstention despite sufficient available evidence. These are not tied to a pinned artifact in this PR and must be re-run on the exact candidate before describing them as reproduced. V3.1.2 remains separate, offline-only, unapproved, and ineligible for scientific interpretation until the scoring gates and negative controls pass.
 
 Other blockers: no sixth same-case irrelevant-history control in Case C; old prior is synthetic/injected and cannot count as a previously experienced model-selected action; exact 2% token alignment was not verified; insufficient repeated model observations; provider-side hidden-state isolation not proven. Long-context 1K–128K and 10–10,000-record external-memory studies remain **NOT_RUN**.
 
